@@ -11,7 +11,7 @@ body {
   /*margin-right: 20px;*/
 }
 #nav-list {
-  margin-top: 45px;
+  margin-top: 20px;
 }
 #nav-list a {
   color: #CCC332;
@@ -28,18 +28,14 @@ body {
 
 .navbar-brand h1 {
   font-family: 'Lora', serif;
-  color: #CCC332;
+  color: #D3C721;
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-}
-
-div#collapsable-nav {
-  padding-left: 0;
-  margin-left: 0;
+  text-transform: uppercase;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -51,7 +47,7 @@ div#collapsable-nav {
 }
 
 #main-content {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 #main-content section h3 {
@@ -69,4 +65,10 @@ div#collapsable-nav {
 
 #main-content section div a {
   margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #A0A0A0;
+  }
 }
