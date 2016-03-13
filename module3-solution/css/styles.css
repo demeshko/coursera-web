@@ -1,37 +1,41 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #E6FFA8;
+  color: #677297F;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-  background-color: #C76037;
+  background-color: #404040;
   border-radius: 0;
   border: 0;
+  /*margin-right: 20px;*/
 }
 #nav-list {
-  margin-top: 45px;
+  margin-top: 20px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #CCC332;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E9C771;
+  background: #A2975C;
 }
-#nav-list a span {
-  font-size: 1.8em;
+#nav-list a {
+  font-size: 1.4em;
+/*  margin-left: 0px;*/
+
 }
 
 .navbar-brand h1 {
   font-family: 'Lora', serif;
-  color: #CCC332;
+  color: #D3C721;
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  text-transform: uppercase;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -39,5 +43,32 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #E9C771;
+}
+
+#main-content {
+  margin-top: 120px;
+}
+
+#main-content section h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#main-content section div {
+  background-color: #C0C0C0;
+}
+
+#main-content section div p {
+  margin: 10px;
+}
+
+#main-content section div a {
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #A0A0A0;
+  }
 }
